@@ -3,7 +3,13 @@
   "compilerOptions": {
     "rootDir": "src",
     "declarationDir": "dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "ESNext",
     "types": ["vite/client"]
   },
   "include": ["src"]
 }
+ 
